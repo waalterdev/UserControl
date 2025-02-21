@@ -4,9 +4,9 @@ Este projeto implementa um sistema básico de gerenciamento de usuários em Java
 
 ## Funcionalidades
 
-* Adicionar usuários com validação de CPF.
-* Buscar usuários por nome.
-* Verificar se um usuário já existe no sistema.
+* Validação de campos.
+* Busca por gravações.
+* Verificação de existência de campos.
 
 ## Tecnologias
 
