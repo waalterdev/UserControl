@@ -1,4 +1,6 @@
-# Gerenciamento de Usuários em Java ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+# Gerenciamento de Usuários em Java 
+
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) 
 
 Este projeto implementa um sistema básico de gerenciamento de usuários em Java.
 
