@@ -41,7 +41,10 @@ public class UserManagement {
             throw new IllegalArgumentException(String.format("CPF inválido: %s", cpf));
         }
 
-        
+        return users.stream()
+        .filter(user -> user.getCpf().equals(cpf))
+        .findFirst()
+        .orElseThrow(() -> new IllegalArgumentException(String.format("Usuário com CPF %s não encontrado.", cpf)));
     }
 
     public ArrayList<User> findUsersByFirstname(String firstname) {

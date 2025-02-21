@@ -6,10 +6,9 @@ public class Main {
         UserManagement userManagement = new UserManagement();
 
         // Adicionando dois usuários
-        userManagement.addUser(new User("John", "Doe", "12345678901"));
+        userManagement.addUser(new User("John", "Martin", "12345678901"));
         userManagement.addUser(new User("John", "Doe", "12345678902"));
         
-        System.out.println(userManagement.getUsers());
-
+        System.out.println(userManagement.findUserByCPF("12345678903"));
     }
 }
