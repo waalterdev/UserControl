@@ -38,8 +38,10 @@ public class UserManagement {
         boolean validCPF = cpfValidation(cpf);
 
         if (!validCPF) {
-            throw new IllegalArgumentException(String.format("CPF inválido: %s", newUser.getCpf()));
+            throw new IllegalArgumentException(String.format("CPF inválido: %s", cpf));
         }
+
+        
     }
 
     public ArrayList<User> findUsersByFirstname(String firstname) {
