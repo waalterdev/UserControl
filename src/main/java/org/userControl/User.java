@@ -1,12 +1,16 @@
 package org.userControl;
 
+import lombok.Data;
 
-public class UserModel {
+@Data
+public class User {
     private String firstname;
     private String lastname;
+    private String cpf;
 
-    public UserModel(String firstname, String lastname) {
+    public User(String firstname, String lastname, String cpf) {
         this.firstname = firstname;
         this.lastname = lastname;
+        this.cpf = cpf;
     }
 }
